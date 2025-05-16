@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Eswaraiahsapram
+  title: Eswaraiah Sapram
+spec:
+  profile:
+    email: esapram@redhat.com
+    displayName: Eswar S
+  memberOf: [janus-authors]
