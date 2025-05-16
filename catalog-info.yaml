@@ -18,7 +18,6 @@ spec:
   profile:
     # Intentional no displayName for testing
     email: divyanshigupta3295@gmail.com
-    displayname: 'Eswar S'
   memberOf: [temp-team-a]
 ---
 ---
@@ -40,6 +39,7 @@ spec:
   profile:
     # Intentional no displayName for testing
     email: esapram@redhat.com
+    displayname: 'Eswar S'
   memberOf: [temp-team-a]
 ---
 apiVersion: backstage.io/v1alpha1
