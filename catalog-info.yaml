@@ -18,6 +18,7 @@ spec:
   profile:
     # Intentional no displayName for testing
     email: divyanshigupta3295@gmail.com
+    displayname: 'Eswar S'
   memberOf: [temp-team-a]
 ---
 ---
