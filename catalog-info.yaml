@@ -39,7 +39,7 @@ spec:
   profile:
     # Intentional no displayName for testing
     email: esapram@redhat.com
-    displayName: 'Eswar S'
+    displayName: Eswar S
   memberOf: [temp-team-a]
 ---
 apiVersion: backstage.io/v1alpha1
