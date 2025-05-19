@@ -6,5 +6,5 @@ metadata:
 spec:
   profile:
     email: esapram@redhat.com
-    displayName: Eswar S
+    displayName: Eswar
   memberOf: [janus-authors]
