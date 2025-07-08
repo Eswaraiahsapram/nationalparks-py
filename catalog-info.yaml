@@ -32,6 +32,7 @@ metadata:
     backstage.io/kubernetes-id: nationalparks-py
     janus-idp.io/tekton: nationalparks-py
     # backstage.io/kubernetes-namespace: div
+  description: The Petstore API allows you to manage pet data, user accounts, and store orders through simple CRUD operations, ideal for testing RESTful API functionality.
 spec:
   type: service
   lifecycle: unknown
