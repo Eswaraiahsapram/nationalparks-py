@@ -27,6 +27,11 @@ metadata:
   name: nationalparks-py
   labels: 
     component: nationalparks-py
+  tags:
+    - rhdh
+    - plugin
+    - homepage
+    - ui
   annotations:
     github.com/project-slug: divyanshiGupta/nationalparks-py
     backstage.io/kubernetes-id: nationalparks-py
