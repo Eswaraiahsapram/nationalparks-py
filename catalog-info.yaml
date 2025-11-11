@@ -1,16 +1,4 @@
 apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: temp-team-a
-  description: Temp Team A
-spec:
-  type: team
-  profile:
-    # Intentional no displayName for testing
-    email: esapram@redhat.com
-  children: []
----
-apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: Eswaraiahsapram
