@@ -7,4 +7,4 @@ spec:
   profile:
     email: esapram@redhat.com
     displayName: Eswar
-  memberOf: [janus-authors]
+  memberOf: [janus-authors, guests, user]
