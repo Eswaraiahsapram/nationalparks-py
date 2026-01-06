@@ -1,33 +1,54 @@
+# apiVersion: backstage.io/v1alpha1
+# kind: User
+# metadata:
+#   name: Eswaraiahsapram
+# spec:
+#   profile:
+#     displayName: Eswar S
+#     email: esapram@redhat.com
+#   memberOf: [temp-team-a]
+# ---
+# apiVersion: backstage.io/v1alpha1
+# kind: Component
+# metadata:
+#   name: nationalparks-py
+#   labels: 
+#     component: nationalparks-py
+#   tags:
+#     - rhdh
+#     - plugin
+#     - homepage
+#     - ui
+#   annotations:
+#     github.com/project-slug: redhat-developer/rhdh-plugins
+#     jira/project-key: RHIDP
+#     backstage.io/kubernetes-id: nationalparks-py
+#     janus-idp.io/tekton: nationalparks-py
+#     # backstage.io/kubernetes-namespace: div
+#   description: The Petstore API allows you to manage pet data, user accounts, and store orders through simple CRUD operations, ideal for testing RESTful API functionality.
+# spec:
+#   type: service
+#   lifecycle: unknown
+#   owner: temp-team-a
+
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: Eswaraiahsapram
+  name: eswaraiahsapram
 spec:
   profile:
-    # Intentional no displayName for testing
-    email: esapram@redhat.com
     displayName: Eswar S
-  memberOf: [temp-team-a]
+    email: esapram@redhat.com
+  memberOf:
+    - temp-team-a
 ---
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Group
 metadata:
-  name: nationalparks-py
-  labels: 
-    component: nationalparks-py
-  tags:
-    - rhdh
-    - plugin
-    - homepage
-    - ui
-  annotations:
-    github.com/project-slug: redhat-developer/rhdh-plugins
-    jira/project-key: RHIDP
-    backstage.io/kubernetes-id: nationalparks-py
-    janus-idp.io/tekton: nationalparks-py
-    # backstage.io/kubernetes-namespace: div
-  description: The Petstore API allows you to manage pet data, user accounts, and store orders through simple CRUD operations, ideal for testing RESTful API functionality.
+  name: temp-team-a
 spec:
-  type: service
-  lifecycle: unknown
-  owner: temp-team-a
+  type: team
+  profile:
+    displayName: Temp Team A
+  members:
+    - eswaraiahsapram
