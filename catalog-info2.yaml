@@ -2,6 +2,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: nationalparks-py-1
+  tags:
+    - rhdh
+    - plugin
+    - homepage
+    - ui
+  description: The Petstore API allows you to manage pet data, user accounts, and store orders through simple CRUD operations, ideal for testing RESTful API functionality.
   labels: 
     component: nationalparks-py-1
   annotations:
