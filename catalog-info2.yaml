@@ -1,21 +1,45 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Eswaraiahsapram
+spec:
+  profile:
+    displayName: Eswar S
+    email: esapram@redhat.com
+  memberOf: [temp-team-a]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: temp-team-a
+spec:
+  type: team
+  members:
+    - user:default/eswaraiahsapram
+    - user:default/another-user  # Add more users here
+    - user:default/yet-another-user
+
+---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: nationalparks-py-1
+  name: nationalparks-py
+  labels: 
+    component: nationalparks-py
   tags:
     - rhdh
     - plugin
     - homepage
     - ui
-  description: The Petstore API allows you to manage pet data, user accounts, and store orders through simple CRUD operations, ideal for testing RESTful API functionality.
-  labels: 
-    component: nationalparks-py-1
   annotations:
     github.com/project-slug: redhat-developer/rhdh
+    jira/project-key: RHIDP
     backstage.io/kubernetes-id: nationalparks-py
-    quay.io/repository-slug: divyanshiGupta/nationalparks-py
-    janus-idp.io/tekton : nationalparks-py
+    janus-idp.io/tekton: nationalparks-py
+  description: The Petstore API allows you to manage pet data, user accounts, and store orders through simple CRUD operations, ideal for testing RESTful API functionality.
 spec:
   type: service
   lifecycle: unknown
-  owner: group:temp-team-a
+  owner: temp-team-a  # This group now represents multiple owners
