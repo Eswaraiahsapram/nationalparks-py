@@ -21,7 +21,8 @@ metadata:
     - homepage
     - ui
   annotations:
-    github.com/project-slug: divyanshiGupta/nationalparks-py
+    github.com/project-slug: redhat-developer/rhdh-plugins
+    jira/project-key: RHIDP
     backstage.io/kubernetes-id: nationalparks-py
     janus-idp.io/tekton: nationalparks-py
     # backstage.io/kubernetes-namespace: div
