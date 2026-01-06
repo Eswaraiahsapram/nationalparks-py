@@ -13,7 +13,7 @@ metadata:
   annotations:
     github.com/project-slug: redhat-developer/rhdh
     backstage.io/kubernetes-id: nationalparks-py
-    quay.io/repository-slug: divyanshiGupta/nationalparks-py,
+    quay.io/repository-slug: divyanshiGupta/nationalparks-py
     janus-idp.io/tekton : nationalparks-py
 spec:
   type: service
