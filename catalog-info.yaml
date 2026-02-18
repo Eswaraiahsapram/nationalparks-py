@@ -7,4 +7,4 @@ spec:
   profile:
     displayName: Eswar S
     email: esapram@redhat.com
-  memberOf: [temp-team-a, group:default/red-hat]
+  memberOf: [group:default/red-hat]
